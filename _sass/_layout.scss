@@ -1,10 +1,10 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-image: url(http://i.giphy.com/sbeDaOI3yDchG.gif);
-  background-repeat: no-repeat;
+  // background-image: url(http://i.giphy.com/sbeDaOI3yDchG.gif);
+  // background-repeat: no-repeat;
   /*background-position: center;*/
-  background-size: cover;
+  // background-size: cover;
 }
 
 .content{
@@ -20,7 +20,7 @@ body{
 .header{
   font-family: 'Pacifico', sans-serif;
   font-size: 6rem;
-  border: 1rem double white;
+  // border: 2rem double gray;
   background-color: black;
   display: inline-block;
   margin-bottom: 0px;
@@ -33,5 +33,4 @@ body{
   font-family: 'Audiowide', sans-serif;
   font-size: 6rem;
   text-transform: uppercase;
-  background-color: white;
 }
