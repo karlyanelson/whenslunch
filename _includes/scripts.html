@@ -1,0 +1,11 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment-with-locales.min.js"></script>
+<script>
+(function whensLunch(){
+  var now = moment();
+  var lunch = moment().set({'hour': 12, 'minute':0, 'second':0});
+
+  var timeLeft = now.to(lunch);
+
+  document.getElementById('timeUntilLunch').innerHTML = timeLeft;
+})();
+</script>
