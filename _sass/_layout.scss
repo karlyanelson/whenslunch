@@ -1,16 +1,13 @@
 body{
   margin: 0px;
   padding: 0px;
-  // background-image: url(http://i.giphy.com/sbeDaOI3yDchG.gif);
-  // background-repeat: no-repeat;
-  /*background-position: center;*/
-  // background-size: cover;
   background-color: rgb(13, 153, 171);
 }
 
 .content{
   margin: 0 auto;
   text-align: center;
+  margin-top: 6rem;
 }
 
 .header,
@@ -22,18 +19,28 @@ body{
   font-family: 'Pacifico', sans-serif;
   font-size: 6rem;
   font-weight: 100;
-  // border: 2rem double gray;
   background-color: white;
   display: inline-block;
-  margin-bottom: 0px;
+  margin: 0px;
+  margin-bottom: 4rem;
   padding: .25rem 4rem;
   border-radius: 50px;
   color: rgb(13, 153, 171);
+  box-shadow: 1px 10px 10px rgba(0, 85, 88, 0.5);
+  // box-shadow: inset 1px 4px 2px rgba(0, 85, 88, 0.5);
+
 }
 
 .time{
-  font-family: 'Audiowide', sans-serif;
-  font-size: 6rem;
-  // text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 8rem;
   color: white;
+  margin: 0px;
+  font-weight: 300;
+  // text-transform: uppercase;
+}
+
+.message {
+  margin: 0px;
+  text-transform: none;
 }
