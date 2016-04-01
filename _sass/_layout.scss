@@ -8,6 +8,7 @@ body{
   margin: 0 auto;
   text-align: center;
   margin-top: 6rem;
+  padding: 0 1rem;
 }
 
 .header,
@@ -17,23 +18,27 @@ body{
 
 .header{
   font-family: 'Pacifico', sans-serif;
-  font-size: 8vw;
+  font-size: 9vw;
+  // font-size:4rem;
   font-weight: 100;
-  background-color: white;
+  // background-color: white;
   display: inline-block;
   margin: 0px;
   margin-bottom: 4rem;
-  padding: .25rem 4rem;
-  border-radius: 50px;
-  color: rgb(13, 153, 171);
-  box-shadow: 1px 10px 10px rgba(0, 85, 88, 0.5);
+  padding: .25rem 1rem;
+  border-radius: 20px;
+  color: white;
+  border: 6px solid rgba(0, 85, 88, 0.25);;
+  // color: rgb(13, 153, 171);
+  box-shadow: 1px 10px 10px rgba(0, 85, 88, 0.25);
   // box-shadow: inset 1px 4px 2px rgba(0, 85, 88, 0.5);
 
 }
 
 .time{
   font-family: 'Lato', sans-serif;
-  font-size: 8vw;
+  font-size: 9vw;
+  // font-size:4rem;
   color: white;
   margin: 0px;
   font-weight: 300;
