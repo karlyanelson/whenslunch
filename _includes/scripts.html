@@ -4,15 +4,29 @@
   var now = moment();
   var lunch = moment().set({'hour': 12, 'minute':0, 'second':0});
   var endOfLunch = moment().set({'hour': 13, 'minute':0, 'second':0});
-  var tomorrow = moment().add(1, 'days');
-  var lunchTomorrow = tomorrow.set({'hour': 12, 'minute':0, 'second':0});
+  // var tomorrow = moment().add(1, 'days');
+  // var lunchTomorrow = tomorrow.set({'hour': 12, 'minute':0, 'second':0});
+
+  // if (now < lunch) {
+  //   document.getElementById('timeUntilLunch').innerHTML = now.to(lunch);
+  // } else if (lunch <= now && now <= endOfLunch){
+  //   document.getElementById('timeUntilLunch').innerHTML = "<p class='message'>It's lunch time!</p>";
+  // } else{
+  //   document.getElementById('timeUntilLunch').innerHTML = now.to(lunchTomorrow);
+  // }
+
+  // if (lunch <= now && now <= endOfLunch){
+  //   document.getElementById('timeUntilLunch').innerHTML = "<p class='message'>It's lunch time!</p>";
+  // } else{
+  //   document.getElementById('timeUntilLunch').innerHTML = now.to(lunch);
+  // }
 
   if (now < lunch) {
     document.getElementById('timeUntilLunch').innerHTML = now.to(lunch);
   } else if (lunch <= now && now <= endOfLunch){
     document.getElementById('timeUntilLunch').innerHTML = "<p class='message'>It's lunch time!</p>";
   } else{
-    document.getElementById('timeUntilLunch').innerHTML = now.to(lunchTomorrow);
+    document.getElementById('timeUntilLunch').innerHTML = "<span class='message'>Lunch was </span>" + now.to(lunch);
   }
 })();
 </script>
